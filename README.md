@@ -15,6 +15,11 @@ Requirements
 CLI Commands
 ------------
 
+You can restrict the output by `--limt 50` in the seed line.
+E.g. for a limitation of 50 users to create.
+
+`php cmd.php tck-seeder:seed-user --limit 50`
+
 | Command                                              | Description                               |
 | ---------------------------------------------------- | ----------------------------------------- |
 | `tck-seeder:seed-conversation`                       | Seeds conversations                       |
